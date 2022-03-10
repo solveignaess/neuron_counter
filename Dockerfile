@@ -2,6 +2,7 @@ FROM python:3.8
 
 COPY src /app/src
 COPY requirements.txt /app
+COPY setup.py /app
 
 WORKDIR /app
 

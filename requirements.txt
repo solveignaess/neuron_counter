@@ -1,8 +1,8 @@
 # local package
--e .
+-e . # denne e-en betyr editable mode: ERROR when building docker container if this is uncommented
+# ser ut som om editable mode trenger en setup.py-fil.
 
 # external requirements
---upgrade pip
 click
 Sphinx
 coverage
@@ -16,3 +16,4 @@ comet-ml
 ipykernel
 tensorflow
 stardist
+pandas
